@@ -45,7 +45,7 @@ function getLogin(user, pass, url) {
     });
 }
 
-function getCadValidate() {
+function getCadValidate() { 
     var hfNome = $("#txtNome").val();
     var hfEmail = $("#txtEmail").val();
     var hfCadSenha = $("#txtCadSenha").val();
