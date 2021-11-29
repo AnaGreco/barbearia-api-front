@@ -29,7 +29,7 @@ function getLogin(user, pass, url) {
         format: "json",
         data: jQuery.param({ desc_email: user, desc_password: pass }),
         success: function (json) {
-            window.open('makeReservation.html', '_self');
+            window.open('agendamento.html', '_self');
         },
         error: function (error) {
             swal({
